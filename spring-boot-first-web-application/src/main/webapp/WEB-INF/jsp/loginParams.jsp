@@ -1,10 +1,4 @@
-<html>
-<head>
-    <title>My First Web App</title>
-</head>
-
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 My First JSP ||| ${name}!
-</body>
-
-</html>
+<%@ include file="common/footer.jspf" %>

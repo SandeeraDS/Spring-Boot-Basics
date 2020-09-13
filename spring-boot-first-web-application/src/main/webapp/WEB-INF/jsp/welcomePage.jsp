@@ -1,11 +1,4 @@
-<html>
-
-<head>
-    <title>First Web Application</title>
-</head>
-
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 Welcome ${name}!! <a href="/list-todos">Click Here</a> to load To-Dos
-</body>
-
-</html>
+<%@ include file="common/footer.jspf" %>
